@@ -1,0 +1,11 @@
+{
+    "success_message": "Superheroes loaded successfully",
+    "error_message": "Error getting superheroes, please verify that the backend project is running on localhost",
+    "app_title": "Marvel Superheroes",
+    "loading_message": "Loading superheroes...",
+    "hero_detail": "Hero Detail",
+    "other_information": "Other Information",
+    "available_comics": "Available Comics",
+    "available_series": "Available Series",
+    "available_stories": "Available Stories"
+}

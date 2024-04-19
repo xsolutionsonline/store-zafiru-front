@@ -1,0 +1,39 @@
+<ion-header color="primary">
+  <ion-toolbar color="primary">
+    <ion-buttons slot="start">
+      <ion-button (click)="dismissModal()">
+        <ion-icon slot="icon-only" name="arrow-back"></ion-icon>
+      </ion-button>
+    </ion-buttons>
+    <ion-title>{{ 'hero_detail' | translate }}</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-card class="hero-card">
+    <ion-card-header>
+      <ion-card-title>{{ superhero.name }}</ion-card-title>
+    </ion-card-header>
+    <ion-card-content>
+      <img [src]="superhero.thumbnail.path + '/standard_medium.' + superhero.thumbnail.extension" alt="Thumbnail" class="hero-image-detail">
+      
+      <div class="hero-details">
+        <h1>{{ 'other_information' | translate }}</h1>
+        <ion-list>
+          <ion-item>
+            <ion-label>{{ 'available_comics' | translate }}</ion-label>
+            <ion-note slot="end">{{ superhero.comics.available }}</ion-note>
+          </ion-item>
+          <ion-item>
+            <ion-label>{{ 'available_series' | translate }}</ion-label>
+            <ion-note slot="end">{{ superhero.series.available }}</ion-note>
+          </ion-item>
+          <ion-item>
+            <ion-label>{{ 'available_stories' | translate }}</ion-label>
+            <ion-note slot="end">{{ superhero.stories.available }}</ion-note>
+          </ion-item>
+        </ion-list>
+      </div>
+    </ion-card-content>
+  </ion-card>
+</ion-content>

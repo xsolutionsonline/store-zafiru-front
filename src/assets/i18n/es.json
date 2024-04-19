@@ -1,0 +1,11 @@
+{
+    "success_message": "Superhéroes cargados con éxito",
+    "error_message": "Error obteniendo superhéroes, verifica que el proyecto backFront esté corriendo en localhost",
+    "app_title": "SuperHeroes Marvel",
+    "loading_message": "Cargando superhéroes...",
+    "hero_detail": "Detalles del Héroe",
+    "other_information": "Otra Información",
+    "available_comics": "Cómics Disponibles",
+    "available_series": "Series Disponibles",
+    "available_stories": "Historias Disponibles"
+}

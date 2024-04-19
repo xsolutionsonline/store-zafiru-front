@@ -1,3 +1,4 @@
 export const environment = {
-  production: false
+  production: false,
+  urlMarvel:'http://localhost:3000',
 };
