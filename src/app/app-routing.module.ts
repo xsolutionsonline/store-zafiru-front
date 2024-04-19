@@ -14,7 +14,11 @@ const routes: Routes = [
     path: '',
     redirectTo: 'home',
     pathMatch: 'full'
+  },  {
+    path: 'superheroes-list',
+    loadChildren: () => import('./features/superheroes/pages/superheroes-list/superheroes-list.module').then( m => m.SuperheroesListPageModule)
   },
+
 ];
 
 @NgModule({
